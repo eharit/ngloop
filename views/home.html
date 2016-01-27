@@ -1,0 +1,440 @@
+<!-- jumbotron -->
+<div class="bloc bgc-white" id="jumbotron">
+    <div class="container bloc-sm">
+        <div class="row">
+            <div class="col-sm-12">
+
+                <div id="carousel-1" class="carousel no-shadows slide" data-ride="carousel" data-interval="false">
+                    <!--
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-1" data-slide-to="0">
+						</li>
+						<li data-target="#carousel-1" data-slide-to="1" class="active">
+						</li>
+						<li data-target="#carousel-1" data-slide-to="2">
+						</li>
+					</ol>
+-->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div id="StageOne" class="EDGE-725599650"></div>
+                        </div>
+                        <div class="item">
+                            <iframe src="includes/rejtveny_tobbmegoldasos/index.html" width="100%" height="100%" scrolling="no">
+                            </iframe>
+                        </div>
+                    </div><a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev"><span class="ion ion-chevron-left"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-1" role="button" data-slide="next"><span class="ion ion-chevron-right"></span><span class="sr-only">Next</span></a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jumbotron END -->
+
+<!-- hire-me -->
+<div class="bloc bgc-electric-blue l-bloc animated hideMe flipInX fromTop" id="hire-me">
+    <div class="container bloc-md">
+        <div class="row">
+            <div class="col-sm-9">
+                <h2 class="mg-md centermobile">
+					Freelance Digital Designer &amp; Developer </span>
+				</h2>
+            </div>
+            <div class="col-sm-3 centermobile">
+                <a class="btn btn-lg btn-medium-jungle-green pull-right" onclick="scrollToTarget('#contact-me')"><span class="ion ion-checkmark icon-sm pull-left icon-white"></span>Available!</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- hire-me END -->
+
+<img src="imgs/logo-fb.png" class="ng-hide" og:image />
+
+<!-- featured-skills -->
+<div class="bloc bgc-white-smoke l-bloc" id="featured-skills">
+    <div class="container bloc-lg">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="img-responsive img-icon" src="imgs/angularjs.png" />
+                <h3 class="text-center mg-md">
+					Angular.js
+				</h3>
+                <p class="text-center" contentEditable="{{ authenticated ? 'true' : 'false'}}" ng-model="data.features[0]">
+                    {{data.features[0]}}
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <img class="img-responsive img-icon" src="imgs/nodejs.png" />
+                <h3 class="text-center mg-md">
+					Node.js
+				</h3>
+                <p class="text-center" contentEditable="{{ authenticated ? 'true' : 'false'}}" ng-model="data.features[1]">
+                    {{data.features[1]}}
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <img class="img-responsive img-icon" src="imgs/adobe-edge-animate.png" />
+                <h3 class="text-center mg-md">
+					Adobe Edge Animate
+				</h3>
+                <p class="text-center" contentEditable="{{ authenticated ? 'true' : 'false'}}" ng-model="data.features[2]">
+                    {{data.features[2]}}
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <img class="img-responsive img-icon" src="imgs/html5-css3.png" />
+                <h3 class="text-center mg-md">
+					HTML5/CSS3
+				</h3>
+                <p class="text-center" contentEditable="{{ authenticated ? 'true' : 'false'}}" ng-model="data.features[3]">
+                    {{data.features[3]}}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- featured-skills END -->
+
+<!-- Footer - working-from-home-advantages -->
+<div class="bloc bgc-electric-blue l-bloc" id="working-from-home-advantages">
+    <div class="container bloc-lg">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="text-center">
+                    <span class="et-icon-bike icon-lg icon-medium-jungle-green"></span>
+                </div>
+                <h3 class="text-center mg-md">
+					Environmentally Friendly
+				</h3>
+                <p class="text-center" contentEditable="{{ authenticated ? 'true' : 'false'}}" ng-model="data.work[0]">
+                    {{data.work[0]}}
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="text-center">
+                    <span class="et-icon-wallet icon-lg icon-medium-jungle-green"></span>
+                </div>
+                <h3 class="text-center mg-md">
+					Cost Effective
+				</h3>
+                <p class="text-center" contentEditable="{{ authenticated ? 'true' : 'false'}}" ng-model="data.work[1]">
+                    {{data.work[1]}}
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="text-center">
+                    <span class="et-icon-global icon-lg icon-medium-jungle-green"></span>
+                </div>
+                <h3 class="text-center mg-md">
+					Available from Everywhere
+				</h3>
+                <p class="text-center" contentEditable="{{ authenticated ? 'true' : 'false'}}" ng-model="data.work[2]">
+                    {{data.work[2]}}
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="text-center">
+                    <span class="et-icon-hourglass icon-puzzle icon-beaker icon-lifesaver icon-lg icon-medium-jungle-green"></span>
+                </div>
+                <h3 class="text-center mg-md">
+					Flexible
+				</h3>
+                <p class="text-center" contentEditable="{{ authenticated ? 'true' : 'false'}}" ng-model="data.work[3]">
+                    {{data.work[3]}}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer - working-from-home-advantages END -->
+
+<!-- Footer - my-works -->
+<div class="bloc l-bloc bgc-white" id="my-works">
+    <div class="container bloc-md">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="text-center mg-md">
+					My Works
+				</h2>
+            </div>
+        </div>
+
+        <div class="row voffset perspectiveParent" ng-controller="galleryController">
+            <div class="col-sm-3 animated hideMe  flipInX fromTop perspectiveChild" ng-repeat="project in behance.projects | limitTo:quantity" style="">
+                <a href="#" data-lightbox="{{project.covers[404]}}" data-caption="{{project.name}} | © {{project.owners[0].display_name}}, {{project.owners[0].company}} | V: {{project.stats.views}} A: {{project.stats.appreciations}}" style="box-shadow: 0 1px 0px rgba(0,0,0,.1); margin: 0 auto"><img ng-src="{{project.covers[404]}}" class="img-responsive img-gallery" /></a>
+                <p class="mg-md text-center uppercase">
+                    <small>{{project.name | limitTo:32}}...</small>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Footer - my-works END -->
+
+<!-- Footer - skillset -->
+<div class="bloc feature-list bgc-white-smoke l-bloc hidemobile" id="skillset">
+    <div class="container bloc-md centermobile">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="text-center mg-md muted">
+					Technologies
+				</h2>
+            </div>
+        </div>
+        <div class="row voffset muted">
+            <div class="col-sm-2">
+                <div class="text-center">
+                    <span class="ion ion-social-angular-outline icon-lg icon-medium-jungle-green"></span>
+                </div>
+                <h4 class="text-center mg-md">
+						Angular.js
+				</h4>
+            </div>
+            <div class="col-sm-2">
+                <div class="text-center">
+                    <span class="ion ion-social-nodejs icon-lg icon-medium-jungle-green"></span>
+                </div>
+                <h4 class="text-center mg-md">
+						Node.js
+				</h4>
+            </div>
+            <div class="col-sm-2">
+                <div class="text-center">
+                    <span class="ion ion-social-html5-outline icon-lg icon-medium-jungle-green"></span>
+                </div>
+                <h4 class="text-center mg-md">
+						HTML5
+				</h4>
+            </div>
+            <div class="col-sm-2">
+                <div class="text-center">
+                    <span class="ion ion-social-css3-outline icon-lg icon-medium-jungle-green"></span>
+                </div>
+                <h4 class="text-center mg-md">
+						CSS3
+				</h4>
+            </div>
+            <div class="col-sm-2">
+                <div class="text-center">
+                    <span class="ion ion-social-javascript icon-lg icon-medium-jungle-green"></span>
+                </div>
+                <h4 class="text-center mg-md">
+						JavaScript
+				</h4>
+            </div>
+            <div class="col-sm-2">
+                <div class="text-center">
+                    <span class="ion ion-social-wordpress icon-lg icon-medium-jungle-green"></span>
+                </div>
+                <h4 class="text-center mg-md">
+						WordPress
+				</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer - skillset END -->
+
+<!-- Footer - recent-contracts -->
+<div class="bloc bgc-electric-blue l-bloc" id="recent-contracts">
+    <div class="container bloc-lg">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="mg-md text-center">
+					Recent Contracts
+				</h2>
+            </div>
+        </div>
+        <div class="row voffset">
+            <div class="col-md-3 col-sm-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="mg-clear">
+							Volume Global LTD
+						</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h4 class="mg-md">
+							Remote Contract<br />01-09/2015
+						</h4>
+                        <P>
+                            <strong>JavaScript Developer</strong>
+                        </P>
+                        <p>
+                            Designing and building interacive <strong>HTML5 / JavaScript / Adobe Edge Animate / jQuery / GSAP E-learning applications</strong> and <strong>animations</strong> for well-known international brands.
+                        </p>
+                        <div class="divider-h">
+                            <span class="divider"></span>
+                        </div><img class="center-block" src="imgs/volumeglobal_logo.png" />
+                    </div>
+                    <div class="panel-footer">
+                        <h5 class="mg-clear text-center">
+							<a href="https://www.volumeglobal.com">volumeglobal.com</a>
+						</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="mg-clear">
+							Hungarian Institute for Educational Research and Development
+						</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h4 class="mg-md">
+							Remote Contract<br />04/2014–11/2015
+						</h4>
+                        <P>
+                            <strong>JavaScript Developer</strong>
+                        </P>
+                        <p>
+                            Delivering UI / UX specifications of E-learning objects, HTML5 media player, creating 271 <strong>HTML5</strong> <strong>E-learning applications</strong> using <strong>JavaScript / jQuery / Adobe Edge Animate / GSAP</strong>.
+                        </p>
+                        <div class="divider-h">
+                            <span class="divider"></span>
+                        </div><img class="center-block" src="imgs/ofi_logo.png" />
+                    </div>
+                    <div class="panel-footer">
+                        <h5 class="mg-clear text-center">
+							<a href="http://ofi.hu/en/node/491">ofi.hu</a>
+						</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="mg-clear">
+							iMind Software LTD
+						</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h4 class="mg-md">
+							On-Site Contract<br />07/2010–08/2012
+						</h4>
+                        <P>
+                            <strong>Digital Designer and Front End Developer</strong>
+                        </P>
+                        <p>
+                            UI / UX design and development of joszaki.hu using <strong>HTML5 / CSS3 / JavaScript / jQuery / PHP.</strong>
+                        </p>
+                        <div class="divider-h">
+                            <span class="divider"></span>
+                        </div><img class="center-block" src="imgs/imind_logo.png" />
+                    </div>
+                    <div class="panel-footer">
+                        <h5 class="mg-clear text-center">
+							<a href="http://www.imind.eu/">imind.eu</a>
+						</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="mg-clear">
+							International Step By Step Association
+						</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h4 class="mg-md">
+							Remote Contract<br />2000–{{date | date:'yyyy'}}
+						</h4>
+                        <P>
+                            <strong>Graphic and Digital Designer, Website Developer</strong>
+                        </P>
+                        <p>
+                            Printed materials, website design, and development with <strong>HTML5 / CSS 3 / JavaScript / jQuery / WordPress / Drupal / PHP</strong>, MailChimp template development and campaign management.
+                        </p>
+                        <div class="divider-h">
+                            <span class="divider"></span>
+                        </div><img class="center-block" src="imgs/issa_logo.png" />
+                    </div>
+                    <div class="panel-footer">
+                        <h5 class="mg-clear text-center">
+							<a href="http://issa.nl/">issa.nl</a>
+						</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer - recent-contracts END -->
+
+<!-- Footer - testimonials -->
+<div class="bloc l-bloc bgc-white ng-hide" id="testimonials">
+    <div class="container bloc-md">
+        <div class="col-sm-2 col-sm-offset-5 col-xs-6 col-xs-offset-3">
+            <img class="img-responsive img-icon" src="imgs/seth-white-volume-global-ltd.png" />
+        </div>
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+            <h3 class="text-center ">
+				<i>"We appreciate your dedication to us and the work, and will be sure to contact you if we need more freelancers again in the future."</i>
+			</h3>
+            <p class="text-center">
+                <strong>Seth White, <a href="https://vomuleglobal.com" rel="nofollow">Volume Global LTD</a></strong>
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Footer - testimonials END -->
+
+<!-- Footer - calendar -->
+<div class="bloc l-bloc bgc-white" id="calendar">
+    <div class="container bloc-md">
+
+        <div class="col-xs-12 ng-hide">
+            <iframe src="https://calendar.google.com/calendar/embed?src=eharit%40gmail.com&ctz=Europe/London" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+</div>
+<!-- Footer - testimonials END -->
+
+<script>
+    AdobeEdge.loadComposition('edge/3d-glasses', 'EDGE-725599650', {
+        scaleToFit: "both",
+        centerStage: "both",
+        minW: "0px",
+        maxW: "1000px",
+        width: "1000px",
+        height: "400px"
+    }, {
+        "style": {
+            "${symbolSelector}": {
+                "isStage": "true",
+                "rect": ["undefined", "undefined", "1000px", "600px"],
+                "fill": ["rgba(255,255,255,1)"]
+            }
+        },
+        "dom": [{
+            "rect": ["440", "240", "120px", "120px", "auto", "auto"],
+            "id": "preloader4",
+            "fill": ["rgba(0,0,0,0)", "imgs/preloader4.gif", "0px", "0px"],
+            "type": "image",
+            "tag": "img"
+        }]
+    }, {
+        "style": {
+            "${symbolSelector}": {
+                "isStage": "true",
+                "rect": ["undefined", "undefined", "1000px", "600px"]
+            }
+        },
+        "dom": [{
+            "rect": ["0", "0", "1000px", "600px", "auto", "auto"],
+            "id": "downstage2",
+            "fill": ["rgba(0,0,0,0)", "imgs/Poster.png", "0px", "0px"],
+            "type": "image",
+            "tag": "img"
+        }]
+    });
+
+</script>
+
+<!--Adobe Edge Runtime End-->

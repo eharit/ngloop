@@ -1,0 +1,90 @@
+#buttons {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+    z-index: -1;
+}
+
+.button {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	border-radius: 20px;
+	border: 2px solid #8AFAFE;
+	margin: 0 3px;
+	cursor: pointer;
+}
+
+.button:hover {
+	border-color: #01ffff;
+}
+
+#check {
+	background: url('../images/ofi-check-blue.png') no-repeat 50% 50%;
+	background-color: white;
+}
+
+#replay {
+	background: url('../images/ofi-replay-blue.png') no-repeat 50% 50%;
+	background-color: white;
+}
+
+#hint {
+	background: url('../images/ofi-hint-blue.png') no-repeat 50% 50%;
+	background-color: white;
+}
+
+#modal {
+	width: 50%;
+	height: 50%;
+	max-width: 380px;
+	max-height: 250px;
+	background-color: white;
+	position: absolute;
+	border-radius: 10px;
+	padding: 10px 0;
+	box-shadow: 0 10px 35px rgba(0, 0, 0, .5);
+	background-repeat: no-repeat;
+	background-position: 50% 75%;
+	z-index: 1000;
+	color: silver;
+	font-size: 18px;
+	display: none;
+}
+
+#modal-title {
+	border-top: 1px silver solid;
+	margin-top: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+#close {
+	float: right;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.happy,
+.smile {
+	background-image: url('../images/ofi-smile.png');
+}
+
+.alert {
+	background-image: url('../images/ofi-alert.png');
+}
+
+.sad {
+	background-image: url('../images/ofi-sad.png');
+}
+
+@media only screen and (max-width: 800px) , screen and (max-height: 480px) {
+	/* portrait phones */
+	
+	#modal {
+        background-position: 50% 85%;
+		background-size: 20%;
+	}
+}
