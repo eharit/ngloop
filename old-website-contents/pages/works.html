@@ -1,0 +1,91 @@
+<!-- bloc-2 -->
+<div class="bloc bgc-medium-aquamarine l-bloc" id="bloc-2">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-10">
+				<h3 class="mg-md">
+					I&rsquo;m available for contract
+				</h3>
+			</div>
+			<div class="col-sm-2">
+				<a href="#/contact-me" class="btn btn-wire btn-lg">Contact me</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-2 END -->
+
+
+<!-- bloc-1 -->
+<div class="bloc l-bloc bgc-white" id="bloc-1">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="text-center mg-md tc-bistre">
+					My Works
+				</h3>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-xs-4 col-sm-2 col-md-2" ng-repeat="project in behance.projects | limitTo:quantity">
+				<a href="{{project.url}}">
+					<div class="image-container img-rounded" style="background: url({{project.covers[115]}}) no-repeat 50% 50%; width: 115px; height:90px; background-size:cover; box-shadow: 0 1px 0px rgba(0,0,0,.1); margin: 0 auto"></div>
+
+					<p class="mg-md text-center uppercase">
+						<small>{{project.name | limitTo:12}}...</small>
+					</p>
+				</a>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-1 END -->
+
+
+
+<!-- bloc-3 -->
+<div class="bloc bgc-medium-slate-blue d-bloc" id="bloc-3">
+	<div class="container bloc-lg">
+		<div class="col-xs-2 col-xs-offset-5">
+			<img src="img/placeholder-user.png" class="img-responsive img-circle" />
+		</div>
+		<div class="col-sm-12 col-md-8 col-md-offset-2">
+			<h3 class="text-center  tc-white">
+				<i>"Eventually everything connects - people, ideas, objects. The quality of the connections is the key to quality per se."</i>
+			</h3>
+			<p class="text-center">
+				<strong>Charles Eames</strong>
+			</p>
+		</div>
+	</div>
+</div>
+<!-- bloc-3 END -->
+
+<!-- bloc-4 -->
+<div class="bloc l-bloc bgc-white" id="bloc-4">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="text-center mg-md">
+					Our Customers
+				</h3>
+			</div>
+			<div class="col-sm-12 col-md-8 col-md-offset-2">
+				<div class="col-sm-3">
+					<img src="img/google.png" class="img-responsive" />
+				</div>
+				<div class="col-sm-3">
+					<img src="img/facebook.png" class="img-responsive" />
+				</div>
+				<div class="col-sm-3">
+					<img src="img/stripe.png" class="img-responsive" />
+				</div>
+				<div class="col-sm-3">
+					<img src="img/yahoo.png" class="img-responsive" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-4 END -->

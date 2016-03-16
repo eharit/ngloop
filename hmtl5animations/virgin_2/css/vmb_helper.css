@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* Volume ID - Edge Animate Helper CSS for Virtual Consultant Version 1.2
+
+29/01/15 - SB
+	- Amended pop up panels css to included box shadow decelerations for web kit and moz.
+	- added .upperCase class. 
+ */
+
+/* helpers */
+.auto-height{
+	height:auto !important;
+}
+.auto-width{
+	width:auto !important;
+}
+.position-static{
+	position:static !important;	
+}
+.position-relative{
+	position:relative !important;	
+}
+.float-left{
+	float:left !important;	
+}
+.float-right{
+	float:right !important;
+}
+.clear-left{
+	clear:left !important;
+}
+.clear-right{
+	clear:right !important;
+}
+.clear-both{
+	clear:both !important;
+}
+.shim{
+	position:static !important;
+	opacity:0 !important;
+}
+.upperCase{
+	text-transform: uppercase !important;
+}
+
+.list-item{
+	display: list-item !important;
+	list-style:square outside !important;
+}
+
+.no-wrap{
+	white-space:nowrap !important;
+}
+
+.align-vert-container{
+	top:50% !important;
+	-webkit-transform-origin:50% 50% !important;
+	-moz-transform-origin:50% 50% !important;
+	-ms-transform-origin:50% 50% !important;
+	transform-origin:50% 50% !important;
+	
+	-webkit-transform:translateY(-50%) !important;
+	-moz-transform:translateY(-50%) !important;
+	-ms-transform:translateY(-50%) !important;
+	transform:translateY(-50%) !important;
+}
+
+.align-horz-container{
+	left:50% !important;
+	-webkit-transform-origin:50% 50% !important;
+	-moz-transform-origin:50% 50% !important;
+	-ms-transform-origin:50% 50% !important;
+	transform-origin:50% 50% !important;
+	
+	-webkit-transform:translateX(-50%) !important;
+	-moz-transform:translateX(-50%) !important;
+	-ms-transform:translateX(-50%) !important;
+	transform:translateX(-50%) !important;
+}
+
+.align-cent-container{
+	left:50% !important;
+	top:50% !important;
+	-webkit-transform-origin:50% 50% !important;
+	-moz-transform-origin:50% 50% !important;
+	-ms-transform-origin:50% 50% !important;
+	transform-origin:50% 50% !important;
+	
+	-webkit-transform:translate(-50%, -50%) !important;
+	-moz-transform:translate(-50%, -50%) !important;
+	-ms-transform:translate(-50%, -50%) !important;
+	transform:translate(-50%, -50%) !important;
+}
+.paragraph{
+	position:static !important;
+	width:auto !important;
+	height:auto !important;
+	left:0px !important;
+	right:0px !important;
+	padding:5px !important;
+	padding-left:10px !important;
+	padding-right:10px !important;
+}
+
+.para-padding{
+	position:static !important;
+	height:auto !important;
+	padding:5px !important;
+	padding-left:10px !important;
+	padding-right:10px !important;
+}
+
+.paragraph.list-item, .para-padding.list-item {
+	margin-left:30px !important;
+}
+.panel {
+	position:absolute !important;
+	top:-10px !important;
+	left:-10px !important;
+	right:-10px !important;
+	bottom:-10px !important;
+	width:auto !important;
+	height:auto !important;
+	padding:0px !important;
+	/*z-index:-1;*/
+}
+
+.popup-panel-base{
+	position:absolute !important;
+	top:-25px !important;
+	left:-47px !important;
+	right:-15px !important;
+	bottom:-25px !important;
+	width:auto !important;
+	height:auto !important;
+	padding:0px !important;
+	box-shadow:0px 0px 10px 1px rgba(0,0,0,0.32);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.32);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.32);
+}
+
+.popup-panel-base:before{
+	content:' 0';
+	position:absolute;
+	background-image:url(../images/vmb_common/vmb_common_spritesheet.png);
+	background-position:-350px 64%;
+	background-size:1000px 225%;
+	color:rgba(255,255,255,0.00);
+	width:32px;
+	height:100%;
+	overflow:hidden;
+}
+
+/* Stop text selection */
+#Stage{
+	-webkit-font-smoothing:antialiased;
+	cursor:default;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	word-wrap:normal !important;
+}
+div, p{
+	word-wrap:normal !important;
+}
+
+.avatar-bubble{
+	-webkit-transform:translateY(-50%) !important;
+	-moz-transform:translateY(-50%) !important;
+	-ms-transform:translateY(-50%) !important;
+	transform:translateY(-50%) !important;
+	max-height: 96px;
+}
+
+/*tables*/
+
+.headCell{
+	position:static !important;
+	float:left;
+	font-size:13px !important;
+	line-height:19px !important;
+	color:#FFFFFF !important;
+	font-weight:700;
+	
+}
+
+.headCell:before{
+	content:'n';
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	width:auto;
+	height:auto;
+	margin:5px;
+	background-color:#783c78;
+}
+.l-greyCell{
+	position:static !important;
+	float:left;
+	font-size:13px !important;
+	line-height:19px !important;
+	
+	background-color:#000000;
+	color:#000000 !important;
+	font-weight:700;
+}
+.d-greyCell{
+	position:static !important;
+	float:left;
+	font-size:13px !important;
+	line-height:19px !important;
+}
+.l-pinkCell{
+	position:static !important;
+	float:left;
+	font-size:13px !important;
+	line-height:19px !important;
+}
+.d-pinkCell{
+	position:static !important;
+	float:left;
+	font-size:13px !important;
+	line-height:19px !important;
+}
+/*Glows*/
+.pink-glow{
+	box-shadow: 0px 0px 10px 3px #ffa0e6;
+	-webkit-box-shadow: 0px 0px 10px 3px #ffa0e6;
+	-moz-box-shadow: 0px 0px 10px 3px #ffa0e6;
+	background-color: rgba(0,0,0,0) !important;
+}
+.red-glow{
+	box-shadow: 0px 0px 10px 3px #ff0000;
+	-webkit-box-shadow: 0px 0px 10px 3px #ff0000;
+	-moz-box-shadow: 0px 0px 10px 3px #ff0000;
+	background-color: rgba(0,0,0,0) !important;
+}
+
+/*  Buttons */
+
+.button-red{
+	background-image:url(../images/vmb_common/vmb_common_spritesheet.png);
+	background-position:0px 0px;
+	background-size:1000px 1000px;
+}
+.button-purple{
+	background-image:url(../images/vmb_common/vmb_common_spritesheet.png);
+	background-position:0px -50px;
+	background-size:1000px 1000px;
+}
+
+.button-red.button-down{
+	background-position:0px -100px;
+}
+
+.button-purple.button-down{
+	background-position:0px -150px;
+}
+
+.button-red.button-left{
+	background-position:0px -200px;
+}
+
+.button-purple.button-left{
+	background-position:0px -250px;
+}
+
+.button-base{
+	width:350px !important;
+	height:42px  !important;
+	right:0px !important;
+	left:auto !important;
+}
+
+.button-left{
+	right:auto !important;
+	left:0px !important;
+}
+
+.button-text{
+	position:relative !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:13px !important;
+	font-weight:bold !important;
+	letter-spacing:2px !important;
+	
+	height:auto !important;
+	
+	line-height:19px !important;
+	color:#FFFFFF !important;
+	
+	left:0px !important;
+	top:50% !important;
+	width:auto !important;
+	
+	-webkit-transform-origin:50% 50% !important;
+	-moz-transform-origin:50% 50% !important;
+	-ms-transform-origin:50% 50% !important;
+	transform-origin:50% 50% !important;
+	
+	-webkit-transform:translateY(-50%) !important;
+	-moz-transform:translateY(-50%) !important;
+	-ms-transform:translateY(-50%) !important;
+	transform:translateY(-50%) !important; 
+	
+	padding-left:15px !important;
+	padding-right:35px !important;
+	
+	white-space:nowrap !important;
+	text-transform: uppercase !important;
+}
+
+.button-text-left{
+	padding-left:35px !important;
+	padding-right:15px !important;
+}

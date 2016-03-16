@@ -1,0 +1,11 @@
+{
+  "available" : true,
+  "features" : [ "Angular.js is a flexible front end framework for creating advanced, high performance web applications.", "Node.js is well known for its fast server side responses based on its asynchronous architecture.", "Adobe Edge Animate is a quite new HTML5 CSS3 animation platform", "HTML5/CSS3 is the newest web standard" ],
+  "meta" : {
+    "description" : "I am a freelance web developer and designer working from home, available for contract (website, e-learning, javascript, MEAN stack developer) situated in Leiston, Suffolk, United Kingdom",
+    "keywords" : "freelancer, freelance, website developer, javascript developer, e-learning developer, remote, contractor, work from home, angular, angular.js, node, node.js, mongo, mongo db, express, mean stack, work from home, Leiston, Suffolk, UK, United Kingdom, IP16"
+  },
+    "skills": ["Angular.js is a flexible front end framework for creating advanced, high performance web applications.", "Node.js is well known for its fast server side responses based on its asynchronous architecture.", "Adobe Edge Animate is a quite new HTML5 CSS3 animation platform", "HTML5/CSS3 is the newest web standard", "HTML5/CSS3 is the newest web standard", "HTML5/CSS3 is the newest web standard"],
+  "title" : "Freelancer website developer and designer | Pal Laszlo",
+  "work" : [ "I ride my bicycle whenever possible, our servers are green. My CO2 emission is almost 0.", "I don't commute it means I need less money to make a living.", "Wherever you are around the world, I'll be here, at home.", "I'm available most of the time." ]
+}

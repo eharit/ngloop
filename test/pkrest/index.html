@@ -1,0 +1,101 @@
+<!doctype html>
+<html ng-app="pkrest">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" id="ppstyle" type="text/css" href="style.css">
+    <link rel='stylesheet' href='./css/animate.css' /><link rel='stylesheet' href='./css/font-awesome.min.css'/>
+    <link href='https://fonts.googleapis.com/css?family=Bowlby+One+SC|Oldenburg|Peralta&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="./js/jquery-2.1.0.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/blocs.js"></script>
+    <script src="https://code.angularjs.org/1.4.8/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.4.8/angular-route.min.js"></script>
+    <script src="https://code.angularjs.org/1.4.8/angular-resource.min.js"></script>
+    <script src="js/angular-wp-api-master/angular-wp-api.min.js"></script>
+    <script src="js/rn-lazy-master/src/lazy.js"></script>
+    <script src="js/app.js"></script>
+    <title></title>
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container" ng-controller="homeController">
+    
+<!-- Hero Bloc -->
+<div id="hero-bloc" class="bloc hero bg-lines-dr-bg bg-repeat bgc-ultramarine-blue d-bloc">
+	<div class="container bloc-sm hero-nav sticky-nav">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">Párkocka.hu</a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav navbar-nav pull-right">
+					<li>
+						<a href="#">Home</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="v-center">
+		<div class="vc-content row">
+			<div class="col-sm-12">
+				<h1 class=" text-center tc-pastel-green">
+					{{posts[0].title}}
+				</h1>
+				<h3 class=" text-center mg-lg">
+					{{htmlToPlaintext(posts[0].excerpt)}}
+				</h3><img class="img-responsive center-block mg-md img-frame-lg" ng-src="{{extrImgPath.exec(posts[0].content)[1]}}" />
+				<h6 class="mg-md text-center  tc-pastel-green">
+					Címkék: Facebook, Google, LinkedIn
+				</h6>
+				<div class="text-center">
+					<a href="index.html" class="btn btn-xl btn-pastel-green"><span class="fa fa-thumbs-o-up icon-spacer"></span>Like!</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Hero Bloc END -->
+
+<ng-view></ng-view>
+
+<!-- Footer - bloc-7 -->
+<div class="bloc bgc-ultramarine-blue d-bloc" id="bloc-7">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				<div class="col-sm-3 text-center">
+					<a class="social-lg" href="#"><span class="fa fa-twitter icon-lg"></span></a>
+				</div>
+				<div class="col-sm-3 text-center">
+					<a class="social-lg" href="#"><span class="fa fa-facebook icon-lg"></span></a>
+				</div>
+				<div class="col-sm-3 text-center">
+					<a class="social-lg" href="#"><span class="fa fa-dribbble icon-lg"></span></a>
+				</div>
+				<div class="col-sm-3 text-center">
+					<a class="social-lg" href="#"><span class="fa fa-instagram icon-lg"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-7 END -->
+</div>
+<!-- Main container END -->
+
+</body>
+    
+<!-- Google Analytics -->
+
+<!-- Google Analytics END -->
+
+</html>

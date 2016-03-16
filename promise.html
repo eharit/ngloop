@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="js/promise.js"></script>
+</head>
+
+<body>
+    <script>
+        get('json/data.json').then(function(response) {
+            console.log("Success!", response);
+        }, function(error) {
+            console.error("Failed!", error);
+        });
+    </script>
+</body>
+
+</html>

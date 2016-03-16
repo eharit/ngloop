@@ -1,0 +1,59 @@
+{
+    "lines": [
+        {
+            "descr": "A Föld legkülső, szilárd halmazállapotú gömbhéja.",
+            "word": "FÖLDKÉREG",
+            "hit": 1
+        },
+        {
+            "descr": "A Földet körülvevő egykori levegőburok, amelyben még nem volt oxigén.",
+            "word": "ŐSLÉGKÖR",
+            "hit": 7
+        },
+        {
+            "descr": "A meleg, csapadékos területek jellemző kőzetelőkészítő folyamata.",
+            "word": "MÁLLÁS",
+            "hit": 4
+        },
+        {
+            "descr": "A távolodó kőzetlemezek határain keletkező képződmény, amelyen keresztül magma áramlik a felszínre.",
+            "word": "HASADÉKVÖLGY",
+            "hit": 5
+        },
+        {
+            "descr": "Képlékeny kőzetrétegek nyomás hatására bekövetkező meghajlása.",
+            "word": "GYŰRŐDÉS",
+            "hit": 4
+        },
+        {
+            "descr": "Egy nevezetes őskontinens.",
+            "word": "PANGEA",
+            "hit": 5
+        },
+        {
+            "descr": "A talajszemcséket bevonó vékony vízhártya.",
+            "word": "TALAJNEDVESSÉG",
+            "hit": 6
+        },
+        {
+            "descr": "A földfelszín alatt található, izzó, olvadt kőzetanyag.",
+            "word": "MAGMA",
+            "hit": 3
+        },
+        {
+            "descr": "Más kőzetek törmelékéből vagy élőlények maradványaiból keletkezett kőzetcsoport.",
+            "word": "ÜLEDÉKES",
+            "hit": 5
+        },
+        {
+            "descr": "Magashegységekben kialakuló jégár.",
+            "word": "GLECCSER",
+            "hit": 6
+        }
+],
+    "hiddenWord": "FÖLDRENGÉS",
+    "loSubject": "Földrajz",
+    "loClass": 7,
+    "loTitle": "A kőzetbolygó titkai – összefoglaló rejtvény",
+    "loSubTitle": "A megoldás egy kőzetlemezek mozgásához kapcsolódó jelenség."
+}

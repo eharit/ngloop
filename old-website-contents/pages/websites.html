@@ -1,0 +1,27 @@
+<!-- bloc-5 -->
+<div class="bloc bgc-white l-bloc" id="bloc-5">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="text-center mg-md">
+					Website Design &amp; Development
+				</h2>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-3" ng-repeat="website in websites">
+				<a href="{{website.url}}"><img src="img/placeholder-user.png" class="img-responsive img-circle" /></a>
+				<h3 class="mg-md text-center">
+					{{website.title}}
+				</h3>
+				<p class="text-center">
+					{{website.description}}
+				</p>
+				<div class="text-center">
+					<a href="{{website.url}}" class="a-btn ltc-medium-slate-blue">{{website.url}}</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-5 END -->

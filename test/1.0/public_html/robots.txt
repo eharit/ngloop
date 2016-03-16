@@ -1,0 +1,8 @@
+# robots.txt generated at http://www.mcanerin.com
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /old-website-contents/
+Disallow: /includes/
+Disallow: /edge/
+Sitemap: http://loopgrafika.com/sitemap.xml

@@ -7,23 +7,23 @@ app.controller('mainController', ['$scope', '$firebaseObject', '$firebaseAuth', 
     var syncObject = $firebaseObject(ref);
     // synchronize the object with a three-way data binding
     syncObject.$bindTo($scope, "data");
-    
+
     // authenticate
-    
+
     $scope.email = "";
-    $scope.password ="";
-    
+    $scope.password = "";
+
     $scope.date = new Date();
-    
+
     $scope.showAuth = function () {
-            $scope.authShow = true;
+        $scope.authShow = true;
     }
-    
+
     $scope.hideAuth = function () {
-            $scope.authShow = false;
-            $scope.logoutShow = true;
+        $scope.authShow = false;
+        $scope.logoutShow = true;
     }
-    
+
     $scope.logout = function () {
         $scope.logoutShow = false;
         $scope.authenticated = false;
@@ -31,12 +31,12 @@ app.controller('mainController', ['$scope', '$firebaseObject', '$firebaseAuth', 
         $scope.password = "";
         $scope.auth();
     }
-    
+
     $scope.auth = function () {
-        
+
         var authEmail = $scope.email;
         var authPassword = $scope.password;
-        
+
         ref.authWithPassword({
             email: authEmail,
             password: authPassword
@@ -87,27 +87,27 @@ app.controller('galleryController', ['$scope', '$log', '$resource', function ($s
 
 }]);
 
-app.factory('behanceFactory', function ($http) {
-    var factory = {
-        async: function (page) {
-            var user = 'loop-grafika';
-            var apiKey = 'Nevz7kXlgyfE1yCMqExjOZgKeS0v4obC';
-            var url = 'http://behance.net/v2/users/' + user + '/projects?api_key=' + apiKey + '&callback=JSON_CALLBACK';
-            var promise = $http.jsonp(url)
-                .error(function (response, status) {
-                    alert(status);
-                })
-                .success(function (response, status) {
-                    //console.log(response.projects);
-                })
-                .then(function (response, status) {
-                    return response.data;
-                });
-            return promise;
-        }
-    };
-    return factory;
-});
+//app.factory('behanceFactory', function ($http) {
+//    var factory = {
+//        async: function (page) {
+//            var user = 'loop-grafika';
+//            var apiKey = 'Nevz7kXlgyfE1yCMqExjOZgKeS0v4obC';
+//            var url = 'http://behance.net/v2/users/' + user + '/projects?api_key=' + apiKey + '&callback=JSON_CALLBACK';
+//            var promise = $http.jsonp(url)
+//                .error(function (response, status) {
+//                    alert(status);
+//                })
+//                .success(function (response, status) {
+//                    //console.log(response.projects);
+//                })
+//                .then(function (response, status) {
+//                    return response.data;
+//                });
+//            return promise;
+//        }
+//    };
+//    return factory;
+//});
 
 app.directive("contenteditable", function () {
     return {

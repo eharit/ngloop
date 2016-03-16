@@ -1,0 +1,61 @@
+﻿{"frames": [
+
+{
+	"filename": "avatar_talking_sprite0000",
+	"frame": {"x":0,"y":0,"w":131,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":135},
+	"sourceSize": {"w":131,"h":135}
+}
+,{
+	"filename": "avatar_talking_sprite0001",
+	"frame": {"x":131,"y":0,"w":131,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":135},
+	"sourceSize": {"w":131,"h":135}
+}
+,{
+	"filename": "avatar_talking_sprite0002",
+	"frame": {"x":262,"y":0,"w":131,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":135},
+	"sourceSize": {"w":131,"h":135}
+}
+,{
+	"filename": "avatar_talking_sprite0003",
+	"frame": {"x":0,"y":135,"w":131,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":135},
+	"sourceSize": {"w":131,"h":135}
+}
+,{
+	"filename": "avatar_talking_sprite0004",
+	"frame": {"x":131,"y":135,"w":131,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":135},
+	"sourceSize": {"w":131,"h":135}
+}
+,{
+	"filename": "avatar_talking_sprite0005",
+	"frame": {"x":262,"y":135,"w":131,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":135},
+	"sourceSize": {"w":131,"h":135}
+}],
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "14.0.0.110",
+	"Target": "Edge Animate",
+	"Target Version": "4.0",
+	"image": "avatar_talk.png",
+	"format": "RGBA8888",
+	"size": {"w":393,"h":270},
+	"scale": "1"
+}
+}
